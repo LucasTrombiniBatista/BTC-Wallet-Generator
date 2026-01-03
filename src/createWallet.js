@@ -27,7 +27,7 @@ let btcAddress = bitcoin.payments.p2pkh({
     network: network,
 }).address
 
-console.log("Carteira gerada com sucesso!")
+console.log("Carteira gerada com sucesso!\n")
 console.log("Endereço BTC: ", btcAddress)
 console.log("Chave privada (WIF): ", node.toWIF())
 console.log("Mnemonic (frase de recuperação): ", mnemonic)
